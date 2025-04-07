@@ -12,51 +12,24 @@
     "tabs": [
       {
         "tab": "Gateway",
-        "groups": [
-          {
-            "_group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "_group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
+        "pages": [
+          "docs2/introduction",
+          "docs2/quickstart",
+          "docs2/development"
         ]
       },
       {
         "tab": "Softphone",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "pages": [
+          "docs2/api-reference/endpoint/get",
+          "docs2/api-reference/endpoint/create",
+          "docs2/api-reference/endpoint/delete",
+          "docs2/api-reference/endpoint/webhook"
         ]
       },
       {
         "tab": "Additional",
-        "groups": []
+        "pages": []
       }
     ],
     "global": {
