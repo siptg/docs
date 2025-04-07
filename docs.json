@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "maple",
   "name": "SIP.TG Documentation",
   "colors": {
     "primary": "#16A34A",
@@ -107,46 +107,13 @@
         ]
       }
     ],
-    "global": {
-      "dropdowns": [
-        {
-          "dropdown": "Settings bot",
-          "href": "https://t.me/siptg_bot?start=utm_docs"
-        },
-        {
-          "dropdown": "Account for calls",
-          "href": "https://external-link.com/blog"
-        },
-        {
-          "dropdown": "News and updates",
-          "href": "https://t.me/siptg_news_en"
-        },
-        {
-          "dropdown": "Public group",
-          "href": "https://t.me/siptg_public"
-        },
-        {
-          "dropdown": "Customer support",
-          "href": "https://t.me/siptg_support"
-        }
-      ]
-    }
+    "global": {}
   },
   "logo": {
     "light": "https://files.sip.tg/siptg-logo.svg",
     "dark": "https://files.sip.tg/siptg-logo.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Gateway",
-        "href": "https://www.sip.tg/gateway"
-      },
-      {
-        "label": "Softphone",
-        "href": "https://www.sip.tg/softphone"
-      }
-    ],
     "primary": {
       "type": "button",
       "label": "Start bot",
