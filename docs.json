@@ -107,8 +107,30 @@
         ]
       }
     ],
-    "_global": {
-      "anchors": [
+    "global": {
+      "dropdowns": [
+        {
+          "dropdown": "Settings bot",
+          "href": "https://t.me/siptg_bot?start=utm_docs"
+        },
+        {
+          "dropdown": "Account for calls",
+          "href": "https://external-link.com/blog"
+        },
+        {
+          "dropdown": "News and updates",
+          "href": "https://t.me/siptg_news_en"
+        },
+        {
+          "dropdown": "Public group",
+          "href": "https://t.me/siptg_public"
+        },
+        {
+          "dropdown": "Customer support",
+          "href": "https://t.me/siptg_support"
+        }
+      ],
+      "_anchors": [
         {
           "anchor": "Settings bot",
           "href": "https://t.me/siptg_bot?start=utm_docs",
