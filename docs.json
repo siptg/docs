@@ -12,56 +12,99 @@
     "languages": [
       {
         "language": "en",
-        "pages": ["docs2/introduction", "docs2/quickstart", "docs2/development"]
-      },
-      {
-        "language": "es",
-        "pages": ["docs2/introduction", "docs2/quickstart", "docs2/development"]
-      }
-    ],
-    "tabs": [
-      {
-        "tab": "Gateway",
-        "pages": [
-          "docs2/introduction",
-          "docs2/quickstart",
-          "docs2/development"
+        "tabs": [
+          {
+            "tab": "Gateway",
+            "pages": [
+              "docs2/introduction",
+              "docs2/quickstart",
+              "docs2/development"
+            ]
+          },
+          {
+            "tab": "Softphone",
+            "pages": [
+              "docs2/api-reference/endpoint/get",
+              "docs2/api-reference/endpoint/create",
+              "docs2/api-reference/endpoint/delete",
+              "docs2/api-reference/endpoint/webhook"
+            ]
+          },
+          {
+            "tab": "Additional",
+            "pages": []
+          }
+        ],
+        "dropdowns": [
+          {
+            "dropdown": "Settings bot",
+            "href": "https://t.me/siptg_bot?start=utm_docs"
+          },
+          {
+            "dropdown": "Account for calls",
+            "href": "https://external-link.com/blog"
+          },
+          {
+            "dropdown": "News and updates",
+            "href": "https://t.me/siptg_news_en"
+          },
+          {
+            "dropdown": "Public group",
+            "href": "https://t.me/siptg_public"
+          },
+          {
+            "dropdown": "Customer support",
+            "href": "https://t.me/siptg_support"
+          }
         ]
       },
       {
-        "tab": "Softphone",
-        "pages": [
-          "docs2/api-reference/endpoint/get",
-          "docs2/api-reference/endpoint/create",
-          "docs2/api-reference/endpoint/delete",
-          "docs2/api-reference/endpoint/webhook"
+        "language": "ru",
+        "tabs": [
+          {
+            "tab": "Шлюз",
+            "pages": [
+              "docs2/introduction",
+              "docs2/quickstart",
+              "docs2/development"
+            ]
+          },
+          {
+            "tab": "Софтфон",
+            "pages": [
+              "docs2/api-reference/endpoint/get",
+              "docs2/api-reference/endpoint/create",
+              "docs2/api-reference/endpoint/delete",
+              "docs2/api-reference/endpoint/webhook"
+            ]
+          },
+          {
+            "tab": "Дополнительно",
+            "pages": []
+          }
+        ],
+        "dropdowns": [
+          {
+            "dropdown": "Бот для настройки",
+            "href": "https://t.me/siptg_bot?start=utm_docs"
+          },
+          {
+            "dropdown": "Аккаунт для звонков",
+            "href": "https://external-link.com/blog"
+          },
+          {
+            "dropdown": "Новости и обновления",
+            "href": "https://t.me/siptg_news_ru"
+          },
+          {
+            "dropdown": "Публичная группа",
+            "href": "https://t.me/siptg_public"
+          },
+          {
+            "dropdown": "Поддержка пользователей",
+            "href": "https://t.me/siptg_support"
+          }
         ]
-      },
-      {
-        "tab": "Additional",
-        "pages": []
-      }
-    ],
-    "dropdowns": [
-      {
-        "dropdown": "Settings bot",
-        "href": "https://t.me/siptg_bot?start=utm_docs"
-      },
-      {
-        "dropdown": "Account for calls",
-        "href": "https://external-link.com/blog"
-      },
-      {
-        "dropdown": "News and updates",
-        "href": "https://t.me/siptg_news"
-      },
-      {
-        "dropdown": "Public group",
-        "href": "https://t.me/siptg_public"
-      },
-      {
-        "dropdown": "Customer support",
-        "href": "https://t.me/siptg_support"
       }
     ],
     "_global": {
