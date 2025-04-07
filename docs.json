@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "SIP.TG Documentation",
   "colors": {
     "primary": "#16A34A",
@@ -9,6 +9,16 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "pages": ["docs2/introduction", "docs2/quickstart", "docs2/development"]
+      },
+      {
+        "language": "es",
+        "pages": ["docs2/introduction", "docs2/quickstart", "docs2/development"]
+      }
+    ],
     "tabs": [
       {
         "tab": "Gateway",
