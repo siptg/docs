@@ -11,102 +11,77 @@
   "navigation": {
     "languages": [
       {
-        "language": "en",
-        "tabs": [
-          {
-            "tab": "Gateway",
-            "pages": [
-              "docs2/introduction",
-              "docs2/quickstart",
-              "docs2/development"
-            ]
-          },
-          {
-            "tab": "Softphone",
-            "pages": [
-              "docs2/api-reference/endpoint/get",
-              "docs2/api-reference/endpoint/create",
-              "docs2/api-reference/endpoint/delete",
-              "docs2/api-reference/endpoint/webhook"
-            ]
-          },
-          {
-            "tab": "Additional",
-            "pages": []
-          }
-        ],
-        "dropdowns": [
-          {
-            "dropdown": "Settings bot",
-            "href": "https://t.me/siptg_bot?start=utm_docs"
-          },
-          {
-            "dropdown": "Account for calls",
-            "href": "https://external-link.com/blog"
-          },
-          {
-            "dropdown": "News and updates",
-            "href": "https://t.me/siptg_news_en"
-          },
-          {
-            "dropdown": "Public group",
-            "href": "https://t.me/siptg_public"
-          },
-          {
-            "dropdown": "Customer support",
-            "href": "https://t.me/siptg_support"
-          }
-        ]
-      },
-      {
         "language": "ru",
         "tabs": [
           {
-            "tab": "Главная",
-            "pages": []
-          },
-          {
-            "tab": "Шлюз",
-            "pages": [
-              "docs2/introduction",
-              "docs2/quickstart",
-              "docs2/development"
+            "tab": "Шлюз в АТС",
+            "groups": [
+              {
+                "pages": [
+                  "docs2/gateway-settings",
+                  "docs2/calls-ats",
+                  "docs2/calls-users"
+                ]
+              },
+              {
+                "pages": [
+                  "docs2/gateway-specifics",
+                  "docs2/gateway-crm"
+                ]
+              }
             ]
           },
           {
-            "tab": "Софтфон",
-            "pages": [
-              "docs2/api-reference/endpoint/get",
-              "docs2/api-reference/endpoint/create",
-              "docs2/api-reference/endpoint/delete",
-              "docs2/api-reference/endpoint/webhook"
+            "tab": "Telegram Софтфон",
+            "groups": [
+              {
+                "pages": [
+                  "docs2/sip-management",
+                  "docs2/server-templates",
+                  "docs2/softphone-specifics"
+                ]
+              },
+              {
+                "pages": [
+                  "docs2/howtocall"
+                ]
+              }
             ]
           },
           {
             "tab": "Дополнительно",
-            "pages": []
-          }
-        ],
-        "dropdowns": [
-          {
-            "dropdown": "Бот для настройки",
-            "href": "https://t.me/siptg_bot?start=utm_docs"
-          },
-          {
-            "dropdown": "Аккаунт для звонков",
-            "href": "https://external-link.com/blog"
-          },
-          {
-            "dropdown": "Новости и обновления",
-            "href": "https://t.me/siptg_news_ru"
-          },
-          {
-            "dropdown": "Публичная группа",
-            "href": "https://t.me/siptg_public"
-          },
-          {
-            "dropdown": "Поддержка пользователей",
-            "href": "https://t.me/siptg_support"
+            "groups": [
+              {
+                "pages": [
+                  "docs2/payways"
+                ]
+              },
+              {
+                "pages": [
+                  "docs2/codecs",
+                  "docs2/dtmf",
+                  "docs2/rewrite-rules"
+                ]
+              },
+              {
+                "pages": [
+                  "docs2/errors"
+                ]
+              },
+              {
+                "pages": [
+                  "docs2/module-worker",
+                  "docs2/module-storage"
+                ]
+              },
+              {
+                "pages": [
+                  "docs2/subscription-payer",
+                  "docs2/admin-request",
+                  "docs2/sip-operators"
+                ]
+              }
+            ]
           }
         ]
       }
@@ -122,6 +97,11 @@
       "type": "button",
       "label": "Start bot",
       "href": "https://t.me/siptg_bot?start=utm_docs"
+    }
+  },
+  "integrations": {
+    "ga4": {
+        "measurementId": "G-ZQZN71WKHN"
     }
   }
 }
