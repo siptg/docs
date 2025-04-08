@@ -46,7 +46,7 @@
                 "pages": [
                   "docs2/gateway/account-types",
                   "docs2/gateway/telegram-numbers",
-                  "docs2/gateway/sip-options",
+                  "docs2/gateway/sip-options"
                 ]
               },
               {
