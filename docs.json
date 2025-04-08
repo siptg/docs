@@ -17,7 +17,7 @@
             "tab": "Шлюз в АТС",
             "groups": [
               {
-                "group": "",
+                "group": "1",
                 "pages": [
                   "docs2/gateway-settings",
                   "docs2/calls-ats",
@@ -25,7 +25,7 @@
                 ]
               },
               {
-                "group": "",
+                "group": "2",
                 "pages": [
                   "docs2/gateway-specifics",
                   "docs2/gateway-crm"
@@ -37,7 +37,7 @@
             "tab": "Telegram Софтфон",
             "groups": [
               {
-                "group": "",
+                "group": "1",
                 "pages": [
                   "docs2/sip-management",
                   "docs2/server-templates",
@@ -45,7 +45,7 @@
                 ]
               },
               {
-                "group": "",
+                "group": "2",
                 "pages": [
                   "docs2/howtocall"
                 ]
@@ -56,13 +56,13 @@
             "tab": "Дополнительно",
             "groups": [
               {
-                "group": "",
+                "group": "1",
                 "pages": [
                   "docs2/payways"
                 ]
               },
               {
-                "group": "",
+                "group": "2",
                 "pages": [
                   "docs2/codecs",
                   "docs2/dtmf",
@@ -70,20 +70,20 @@
                 ]
               },
               {
-                "group": "",
+                "group": "3",
                 "pages": [
                   "docs2/errors"
                 ]
               },
               {
-                "group": "",
+                "group": "4",
                 "pages": [
                   "docs2/module-worker",
                   "docs2/module-storage"
                 ]
               },
               {
-                "group": "",
+                "group": "5",
                 "pages": [
                   "docs2/subscription-payer",
                   "docs2/admin-request",
@@ -93,6 +93,9 @@
             ]
           }
         ]
+      },
+      {
+        "language": "en"
       }
     ],
     "global": {}
@@ -108,7 +111,7 @@
       "href": "https://t.me/siptg_bot?start=utm_docs"
     }
   },
-  "integrations": {
+  "_integrations": {
     "ga4": {
       "measurementId": "G-ZQZN71WKHN"
     }
