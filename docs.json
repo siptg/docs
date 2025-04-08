@@ -14,40 +14,102 @@
         "language": "ru",
         "tabs": [
           {
-            "tab": "Шлюз в АТС",
+            "tab": "Начало",
             "groups": [
               {
-                "group": " ",
+                "group": "",
                 "pages": [
-                  "docs2/gateway-settings",
-                  "docs2/calls-ats",
-                  "docs2/calls-users"
-                ]
-              },
-              {
-                "group": " ",
-                "pages": [
-                  "docs2/gateway-specifics",
-                  "docs2/gateway-crm"
+                  "docs2/index"
                 ]
               }
             ]
           },
           {
-            "tab": "Telegram Софтфон",
+            "tab": "Шлюз",
             "groups": [
               {
-                "group": " ",
+                "group": "Введение",
                 "pages": [
-                  "docs2/sip-management",
-                  "docs2/server-templates",
-                  "docs2/softphone-specifics"
+                  "docs2/gateway/index"
                 ]
               },
               {
-                "group": " ",
+                "group": "Подключение к Telegram",
                 "pages": [
-                  "docs2/howtocall"
+                  "docs2/gateway/telegram",
+                  "docs2/gateway/message-processing",
+                  "docs2/gateway/session-options"
+                ]
+              },
+              {
+                "group": "Подключение к АТС",
+                "pages": [
+                  "docs2/gateway/account-types",
+                  "docs2/gateway/telegram-numbers",
+                  "docs2/gateway/sip-options",
+                ]
+              },
+              {
+                "group": "Отладка",
+                "pages": [
+                  "docs2/gateway/troubleshooting",
+                  "docs2/gateway/errors"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Софтфон",
+            "groups": [
+              {
+                "group": "Настройка",
+                "pages": [
+                  "docs2/softphone/index",
+                  "docs2/softphone/quickstart",
+                  "docs2/softphone/server-templates",
+                  "docs2/softphone/codecs-dtmf",
+                  "docs2/softphone/number-rules"
+                ]
+              },
+              {
+                "group": "Функции",
+                "pages": [
+                  "docs2/softphone/users",
+                  "docs2/softphone/recording",
+                  "docs2/softphone/callback"
+                ]
+              },
+              {
+                "group": "Отладка",
+                "pages": [
+                  "docs2/softphone/troubleshooting",
+                  "docs2/softphone/errors"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Оплата и Подписки",
+            "groups": [
+              {
+                "group": "Подписки",
+                "pages": [
+                  "docs2/subscriptions/index",
+                  "docs2/subscriptions/free",
+                  "docs2/subscriptions/gateway",
+                  "docs2/subscriptions/softphone",
+                  "docs2/subscriptions/management",
+                  "docs2/subscriptions/payer"
+                ]
+              },
+              {
+                "group": "Биллинг",
+                "pages": [
+                  "docs2/billing/payways",
+                  "docs2/billing/balance",
+                  "docs2/billing/invoice",
+                  "docs2/billing/verification",
+                  "docs2/billing/errors"
                 ]
               }
             ]
@@ -56,37 +118,20 @@
             "tab": "Дополнительно",
             "groups": [
               {
-                "group": " ",
+                "group": "Прочее",
                 "pages": [
-                  "docs2/payways"
+                  "docs2/additional/roles",
+                  "docs2/additional/admin-request",
+                  "docs2/additional/api-access",
+                  "docs2/additional/module-worker",
+                  "docs2/additional/module-storage",
+                  "docs2/additional/errors"
                 ]
               },
               {
-                "group": " ",
+                "group": "Партнёры",
                 "pages": [
-                  "docs2/codecs",
-                  "docs2/dtmf",
-                  "docs2/rewrite-rules"
-                ]
-              },
-              {
-                "group": " ",
-                "pages": [
-                  "docs2/errors"
-                ]
-              },
-              {
-                "group": " ",
-                "pages": [
-                  "docs2/module-worker",
-                  "docs2/module-storage"
-                ]
-              },
-              {
-                "group": " ",
-                "pages": [
-                  "docs2/subscription-payer",
-                  "docs2/admin-request"
+                  "docs2/additional/partners"
                 ]
               }
             ]
