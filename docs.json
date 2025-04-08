@@ -17,6 +17,7 @@
             "tab": "Шлюз в АТС",
             "groups": [
               {
+                "group": "",
                 "pages": [
                   "docs2/gateway-settings",
                   "docs2/calls-ats",
@@ -24,6 +25,7 @@
                 ]
               },
               {
+                "group": "",
                 "pages": [
                   "docs2/gateway-specifics",
                   "docs2/gateway-crm"
@@ -35,6 +37,7 @@
             "tab": "Telegram Софтфон",
             "groups": [
               {
+                "group": "",
                 "pages": [
                   "docs2/sip-management",
                   "docs2/server-templates",
@@ -42,6 +45,7 @@
                 ]
               },
               {
+                "group": "",
                 "pages": [
                   "docs2/howtocall"
                 ]
@@ -52,11 +56,13 @@
             "tab": "Дополнительно",
             "groups": [
               {
+                "group": "",
                 "pages": [
                   "docs2/payways"
                 ]
               },
               {
+                "group": "",
                 "pages": [
                   "docs2/codecs",
                   "docs2/dtmf",
@@ -64,17 +70,20 @@
                 ]
               },
               {
+                "group": "",
                 "pages": [
                   "docs2/errors"
                 ]
               },
               {
+                "group": "",
                 "pages": [
                   "docs2/module-worker",
                   "docs2/module-storage"
                 ]
               },
               {
+                "group": "",
                 "pages": [
                   "docs2/subscription-payer",
                   "docs2/admin-request",
@@ -89,8 +98,8 @@
     "global": {}
   },
   "logo": {
-    "light": "https://files.sip.tg/siptg-logo.svg",
-    "dark": "https://files.sip.tg/siptg-logo.svg"
+    "light": "docs2/logo/light.svg",
+    "dark": "docs2/logo/dark.svg"
   },
   "navbar": {
     "primary": {
@@ -101,7 +110,7 @@
   },
   "integrations": {
     "ga4": {
-        "measurementId": "G-ZQZN71WKHN"
+      "measurementId": "G-ZQZN71WKHN"
     }
   }
 }
