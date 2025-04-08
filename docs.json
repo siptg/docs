@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
-  "name": "SIP.TG Documentation",
+  "name": "SIP.TG",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -100,8 +100,8 @@
     "global": {}
   },
   "logo": {
-    "light": "docs2/logo/light.svg",
-    "dark": "docs2/logo/dark.svg"
+    "light": "logo/light.svg",
+    "dark": "logo/dark.svg"
   },
   "navbar": {
     "primary": {
