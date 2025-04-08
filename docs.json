@@ -17,7 +17,7 @@
             "tab": "Шлюз в АТС",
             "groups": [
               {
-                "group": "1",
+                "group": "",
                 "pages": [
                   "docs2/gateway-settings",
                   "docs2/calls-ats",
@@ -25,7 +25,7 @@
                 ]
               },
               {
-                "group": "2",
+                "group": "",
                 "pages": [
                   "docs2/gateway-specifics",
                   "docs2/gateway-crm"
@@ -37,7 +37,7 @@
             "tab": "Telegram Софтфон",
             "groups": [
               {
-                "group": "1",
+                "group": "",
                 "pages": [
                   "docs2/sip-management",
                   "docs2/server-templates",
@@ -45,7 +45,7 @@
                 ]
               },
               {
-                "group": "2",
+                "group": "",
                 "pages": [
                   "docs2/howtocall"
                 ]
@@ -56,13 +56,13 @@
             "tab": "Дополнительно",
             "groups": [
               {
-                "group": "1",
+                "group": "",
                 "pages": [
                   "docs2/payways"
                 ]
               },
               {
-                "group": "2",
+                "group": "",
                 "pages": [
                   "docs2/codecs",
                   "docs2/dtmf",
@@ -70,20 +70,20 @@
                 ]
               },
               {
-                "group": "3",
+                "group": "",
                 "pages": [
                   "docs2/errors"
                 ]
               },
               {
-                "group": "4",
+                "group": "",
                 "pages": [
                   "docs2/module-worker",
                   "docs2/module-storage"
                 ]
               },
               {
-                "group": "5",
+                "group": "",
                 "pages": [
                   "docs2/subscription-payer",
                   "docs2/admin-request",
