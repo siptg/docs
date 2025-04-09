@@ -26,7 +26,7 @@
               {
                 "group": "Введение",
                 "pages": [
-                  "docs2/gateway/index",
+                  "docs2/gateway/overview",
                   "docs2/gateway/roles"
                 ]
               },
@@ -60,7 +60,7 @@
               {
                 "group": "Введение",
                 "pages": [
-                  "docs2/softphone/index",
+                  "docs2/softphone/overview",
                   "docs2/softphone/roles"
                 ]
               },
