@@ -40,7 +40,6 @@
               {
                 "group": "Подключение к АТС",
                 "pages": [
-                  "docs2/gateway/sip-types",
                   "docs2/gateway/sip-settings",
                   "docs2/gateway/telegram-numbers"
                 ]
