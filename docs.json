@@ -34,7 +34,6 @@
                 "group": "Подключение к Telegram",
                 "pages": [
                   "docs2/gateway/telegram",
-                  "docs2/gateway/message-processing",
                   "docs2/gateway/session-settings"
                 ]
               },
