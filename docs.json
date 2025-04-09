@@ -19,18 +19,20 @@
       {
         "language": "ru",
         "href": "docs2",
-        "dropdowns": [
+        "anchors": [
           {
-            "dropdown": "Начало",
+            "anchor": "Главная",
             "href": "docs2"
-          },
+          }
+        ]
+        "tabs": [
           {
-            "dropdown": "Шлюз",
+            "tab": "Шлюз",
             "groups": [
               {
                 "group": "Введение",
                 "pages": [
-                  "docs2/gateway",
+                  "docs2/gateway/index",
                   "docs2/gateway/roles"
                 ]
               },
@@ -59,19 +61,18 @@
             ]
           },
           {
-            "dropdown": "Софтфон",
+            "tab": "Софтфон",
             "groups": [
               {
                 "group": "Введение",
                 "pages": [
-                  "docs2/softphone",
+                  "docs2/softphone/index",
                   "docs2/softphone/roles"
                 ]
               },
               {
                 "group": "Настройка",
                 "pages": [
-                  "docs2/softphone/connection",
                   "docs2/softphone/settings",
                   "docs2/softphone/recording"
                 ]
@@ -85,7 +86,7 @@
             ]
           },
           {
-            "dropdown": "Стоимость и оплата",
+            "tab": "Стоимость и оплата",
             "groups": [
               {
                 "group": "Подписки",
@@ -106,7 +107,7 @@
             ]
           },
           {
-            "dropdown": "Дополнительно",
+            "tab": "Дополнительно",
             "groups": [
               {
                 "group": "Прочее",
