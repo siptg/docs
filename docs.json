@@ -8,18 +8,18 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "docs2"
-    }
-  ],
   "navigation": {
     "languages": [
       {
         "language": "ru",
         "href": "docs2",
         "tabs": [
+          {
+            "tab": "Начало",
+            "pages": [
+              "docs2"
+            ]
+          },
           {
             "tab": "Шлюз",
             "groups": [
