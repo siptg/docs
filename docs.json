@@ -19,12 +19,6 @@
       {
         "language": "ru",
         "href": "docs2",
-        "anchors": [
-          {
-            "anchor": "Главная",
-            "href": "docs2"
-          }
-        ],
         "tabs": [
           {
             "tab": "Шлюз",
@@ -137,19 +131,11 @@
         "language": "en",
         "href": "en/docs2"
       }
-    ],
-    "global": {}
+    ]
   },
   "logo": {
     "light": "logo/light.svg",
     "dark": "logo/dark.svg"
-  },
-  "_navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Start bot",
-      "href": "https://t.me/siptg_bot?start=utm_docs"
-    }
   },
   "integrations": {
     "ga4": {
