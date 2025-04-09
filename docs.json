@@ -8,29 +8,30 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "docs2"
+    }
+  ],
   "navigation": {
     "languages": [
       {
         "language": "ru",
-        "tabs": [
+        "href": "docs2",
+        "dropdowns": [
           {
-            "tab": "Начало",
-            "groups": [
-              {
-                "group": "",
-                "pages": [
-                  "docs2/index"
-                ]
-              }
-            ]
+            "dropdown": "Начало",
+            "href": "docs2"
           },
           {
-            "tab": "Шлюз",
+            "dropdown": "Шлюз",
             "groups": [
               {
                 "group": "Введение",
                 "pages": [
-                  "docs2/gateway/index"
+                  "docs2/gateway",
+                  "docs2/gateway/roles"
                 ]
               },
               {
@@ -38,94 +39,87 @@
                 "pages": [
                   "docs2/gateway/telegram",
                   "docs2/gateway/message-processing",
-                  "docs2/gateway/session-options"
+                  "docs2/gateway/session-settings"
                 ]
               },
               {
                 "group": "Подключение к АТС",
                 "pages": [
-                  "docs2/gateway/account-types",
-                  "docs2/gateway/telegram-numbers",
-                  "docs2/gateway/sip-options"
+                  "docs2/gateway/sip-types",
+                  "docs2/gateway/sip-settings",
+                  "docs2/gateway/telegram-numbers"
                 ]
               },
               {
                 "group": "Отладка",
                 "pages": [
-                  "docs2/gateway/troubleshooting",
-                  "docs2/gateway/errors"
+                  "docs2/gateway/problems"
                 ]
               }
             ]
           },
           {
-            "tab": "Софтфон",
+            "dropdown": "Софтфон",
             "groups": [
+              {
+                "group": "Введение",
+                "pages": [
+                  "docs2/softphone",
+                  "docs2/softphone/roles"
+                ]
+              },
               {
                 "group": "Настройка",
                 "pages": [
-                  "docs2/softphone/index",
-                  "docs2/softphone/quickstart",
-                  "docs2/softphone/server-templates",
-                  "docs2/softphone/codecs-dtmf",
-                  "docs2/softphone/number-rules"
-                ]
-              },
-              {
-                "group": "Функции",
-                "pages": [
-                  "docs2/softphone/users",
-                  "docs2/softphone/recording",
-                  "docs2/softphone/callback"
+                  "docs2/softphone/connection",
+                  "docs2/softphone/settings",
+                  "docs2/softphone/recording"
                 ]
               },
               {
                 "group": "Отладка",
                 "pages": [
-                  "docs2/softphone/troubleshooting",
-                  "docs2/softphone/errors"
+                  "docs2/softphone/problems"
                 ]
               }
             ]
           },
           {
-            "tab": "Оплата и Подписки",
+            "dropdown": "Стоимость и оплата",
             "groups": [
               {
                 "group": "Подписки",
                 "pages": [
-                  "docs2/subscriptions/index",
-                  "docs2/subscriptions/free",
-                  "docs2/subscriptions/gateway",
-                  "docs2/subscriptions/softphone",
-                  "docs2/subscriptions/management",
-                  "docs2/subscriptions/payer"
+                  "docs2/payment/subscriptions",
+                  "docs2/payment/roles",
+                  "docs2/payment/management"
                 ]
               },
               {
                 "group": "Биллинг",
                 "pages": [
-                  "docs2/billing/payways",
-                  "docs2/billing/balance",
-                  "docs2/billing/invoice",
-                  "docs2/billing/verification",
-                  "docs2/billing/errors"
+                  "docs2/payment/payways",
+                  "docs2/payment/verification",
+                  "docs2/payment/balance"
                 ]
               }
             ]
           },
           {
-            "tab": "Дополнительно",
+            "dropdown": "Дополнительно",
             "groups": [
               {
                 "group": "Прочее",
                 "pages": [
-                  "docs2/additional/roles",
                   "docs2/additional/admin-request",
-                  "docs2/additional/api-access",
+                  "docs2/additional/api-access"
+                ]
+              },
+              {
+                "group": "Размещение у себя",
+                "pages": [
                   "docs2/additional/module-worker",
-                  "docs2/additional/module-storage",
-                  "docs2/additional/errors"
+                  "docs2/additional/module-storage"
                 ]
               },
               {
@@ -139,7 +133,8 @@
         ]
       },
       {
-        "language": "en"
+        "language": "en",
+        "href": "en/docs2"
       }
     ],
     "global": {}
@@ -148,7 +143,7 @@
     "light": "logo/light.svg",
     "dark": "logo/dark.svg"
   },
-  "navbar": {
+  "_navbar": {
     "primary": {
       "type": "button",
       "label": "Start bot",
