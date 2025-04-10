@@ -26,8 +26,7 @@
               {
                 "group": "Введение",
                 "pages": [
-                  "docs2/gateway",
-                  "docs2/gateway/roles"
+                  "docs2/gateway"
                 ]
               },
               {
@@ -58,8 +57,7 @@
               {
                 "group": "Введение",
                 "pages": [
-                  "docs2/softphone",
-                  "docs2/softphone/roles"
+                  "docs2/softphone"
                 ]
               },
               {
@@ -84,7 +82,6 @@
                 "group": "Подписки",
                 "pages": [
                   "docs2/payment/subscriptions",
-                  "docs2/payment/roles",
                   "docs2/payment/management"
                 ]
               },
