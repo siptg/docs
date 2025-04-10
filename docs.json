@@ -53,26 +53,11 @@
           },
           {
             "tab": "Софтфон",
-            "groups": [
-              {
-                "group": "Введение",
-                "pages": [
-                  "docs2/softphone"
-                ]
-              },
-              {
-                "group": "Настройка",
-                "pages": [
-                  "docs2/softphone/settings",
-                  "docs2/softphone/recording"
-                ]
-              },
-              {
-                "group": "Отладка",
-                "pages": [
-                  "docs2/softphone/problems"
-                ]
-              }
+            "pages": [
+              "docs2/softphone",
+              "docs2/softphone/settings",
+              "docs2/softphone/usage",
+              "docs2/softphone/problems"
             ]
           },
           {
